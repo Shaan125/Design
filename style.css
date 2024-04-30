@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background-image: url(Rectangle\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-image: url(Rectangle.png);
+    height: 90vh;
+    width: 80%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav #logo{
+    margin-left: 10px;
+}
+nav #menu ul{
+    display: flex;
+    gap: 2rem;
+}
+nav #menu ul li{
+    color: red;
+    list-style: none;
+}
+nav #icon{
+    margin-right: 10px;
+}
+.boxA{
+    display: flex;
+    height: 60vh;
+}
+#box1{
+    height: 50vh;
+}
+#box2 img{
+    width: 52vw;
+    position: relative;
+}
+#box1 #para{
+    background-image: url(/aranha-logo\ 1.png);
+    background-size: cover;
+    height: 60vh;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#btn{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+#btn p{
+    background-color: red;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+.mile{
+    color: white;
+    text-align: center; 
+    width: 34vw;
+    padding: 0px 30px;
+}
+.boxB{
+    color: white;
+    height: 20vh;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+.boxB #box3{
+    height: 13vh;
+    width: 35%;
+    font-size: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boxB #box3 p{
+    width: 11vw;
+}
+
+.boxB #box4{
+    height: 13vh;
+    width: 35%;
+    font-size: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boxB #box5{
+    height: 13vh;
+    width: 35%;
+    font-size: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.boxB #box3 h2{
+    font-weight: 100;
+}
+.boxB #box4 h2{
+    font-weight: 100;
+}
+.boxB #box5 h2{
+    font-weight: 100;
+}
